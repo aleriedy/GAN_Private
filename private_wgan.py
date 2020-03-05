@@ -16,8 +16,8 @@ import analysis
 
 
 # Deterministic output
-torch.manual_seed(0)
-np.random.seed(0)
+torch.manual_seed(123)
+np.random.seed(123)
 
 
 class Generator(nn.Module):
